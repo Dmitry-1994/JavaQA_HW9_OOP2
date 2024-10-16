@@ -10,7 +10,7 @@ public class Radio {
 
     public void setNumderCurentRadiostation(int newNumderRadiostation) {
         if ((0 <= newNumderRadiostation) & (newNumderRadiostation <= 9)) {
-            numderCurentRadiostation = newNumderRadiostation;
+            this.numderCurentRadiostation = newNumderRadiostation;
         } else {
             return;
         }
@@ -22,7 +22,7 @@ public class Radio {
 
     public void setCurentVolume(int newCurentValume) {
         if ((0 <= newCurentValume) & (newCurentValume <= 100)) {
-            curentVolume = newCurentValume;
+            this.curentVolume = newCurentValume;
         } else {
             return;
         }
